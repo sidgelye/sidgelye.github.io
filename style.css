@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+img{
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+	max-width: 50px; 
+	border-width: 3px;
+	border-color: #aaa;
+}
+.faded{
+	color: rgba(255, 255,255,0.4);
+}
+.startup{
+	background-position: center;
+	background-image: url("header.jpg");
+	background-size: cover;	
+	height: 100%;
+}
+hr{
+	margin-top: 200px;
+	margin-bottom: 20px;
+	color: #b2772a;
+}
+h1{
+	font-size: 35px;
+}
+.btn-xl{
+ 	padding: 1rem 2rem;
+}
+.btn-primary{
+	background-color: #b29b70;
+	border-color: #b29b70;
+	border-radius: 200px;
+}
+.btn-primary:hover{
+	background-color: #6a98b7;
+	border-color: #6a98b7;
+	border-width: 5px;
+	cursor: pointer;
+}
+strong{
+	color: #af8570;
+}
